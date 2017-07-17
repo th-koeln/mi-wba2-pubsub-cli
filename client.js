@@ -2,7 +2,7 @@ const prompt = require('prompt');
 const faye = require('faye');
 const io = require('socket.io-client');
 
-const promptSchema = require(__dirname+'/promptschema.js');
+const promptSchema = require(__dirname+'/schema/promptschema.js');
 
 prompt.start();
 process.stdin.setEncoding('utf8');

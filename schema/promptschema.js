@@ -55,7 +55,7 @@ exports.fayesub = {
             required: true
         },
         topic: {
-            pattern: /^\/[a-zA-Z0-9]*$/,
+            pattern: /^\/([a-zA-Z0-9]+\/?)*$/,
             message: "Please enter a valid topic (e.g. '/news')",
             required: true
         }
@@ -71,7 +71,7 @@ exports.fayepub = {
             required: true
         },
         topic: {
-            pattern: /^\/[a-z]+$/,
+            pattern: /^\/([a-z]+\/?)+$/,
             message: "Please enter a valid topic (e.g. '/news')",
             required: true
         },
