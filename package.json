@@ -11,6 +11,7 @@
   "dependencies": {
     "faye": "^1.2.4",
     "prompt": "^1.0.0",
-    "socket.io-client": "^1.7.2"
-  }
+    "socket.io-client": "^1.7.4"
+  },
+  "devDependencies": {}
 }
